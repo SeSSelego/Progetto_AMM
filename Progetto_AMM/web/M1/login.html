@@ -17,28 +17,37 @@ and open the template in the editor.
 <body>
     <header>
         
-    </header>
-        
-            <nav> 
-                <div>
+        <div>
                     <h1> Login </h1>
                    
-                </div>
-                        </nav>
-    
-    <dl class="sub-nav">
- <dt>Nerdbook:</dt>
- <dd><a href="bacheca.html">Bacheca</a></dd>
- <dd><a href="profilo.html">Profilo</a></dd>
- <dd><a href="descrizione.html">Descrizione</a></dd>
-</dl>
+         </div>
+        
+    </header>
+        
             
-    Username <input name="Username" type="text" value="" size="40" maxlength="200" /> <br><br>
-    Password  <input type="password" maxlength="8" size="40" value="mia_password" name="password" /> <br><br>
-
-    <button type="submit">Conferma</button><br><br>
-              
-
+                
+                        
+    <nav>
+    
+        
+ <h2>Nerdbook:</h2>
+ <ol>
+ <li><a href="bacheca.html">Bacheca</a></li>
+ <li><a href="profilo.html">Profilo</a></li>
+ <li><a href="descrizione.html">Descrizione</a></li>
+</ol>
+    </nav>    
+  <div id="login">
+      
+<h3>Login</h3>
+<form method="post" action="login.html">
+<label for="nome">Nome Utente</label>
+<input name="nome" id="nome" type="text"/><br/>
+<label for="password">Password</label>
+<input id="password" type="password" name="password"><br/>
+<input type="submit" value="Conferma"/>
+</form>
+</div>
 
    
 </html>
