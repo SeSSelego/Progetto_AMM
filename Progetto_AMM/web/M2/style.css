@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 header {
-    font: 25px/25px Impact, Charcoal, sans-serif;
+    font: 25px/25px Tahoma, Geneva, sans-serif;
     background: #ffffff;
     text-align: left;
     margin-bottom: 5px;
@@ -27,9 +27,15 @@ body{
 }
 
 a:link{
-    font-size:  20px;
-    text-decoration: crimson;
-    color:#FFA500;
+    font: 20px/20px Tahoma, Geneva, sans-serif;
+    text-decoration: red;
+    color:#ffffff;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    border-style: outset;
+    border-color: orangered;
 }
 
 nav ol, nav li {
@@ -44,3 +50,14 @@ nav li {
     
 }
 
+#descrizione {
+    font: 20px/20px Tahoma, Geneva, sans-serif;
+    background: #ffffff;
+    text-align: left;
+}
+#iscrizione {
+    font: 20px/20px Tahoma, Geneva, sans-serif;
+    background: #ffffff;
+    text-align: left;
+    
+}
