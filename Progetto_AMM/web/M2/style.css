@@ -72,18 +72,45 @@ color: #dd4b39;
 
 }
 
+
+
 /* pagina login */
 
 #login {
-    border-bottom: 5px solid #dd4b39;
-    margin-bottom: 5px;
-   
-    padding-top: 50px;
-    padding-bottom: 50px;
+     
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 10px;
     border-style: solid;
     border-color: black;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#nomelogin {
+    font: 40px/30px Tahoma, Geneva, sans-serif; 
+    text-align: center;
+   
+    
+}
+
+#loginnome {
+   font: 20px/10px Tahoma, Geneva, sans-serif;
+    text-align: center;
+   
+}
+
+#passlogin {
+   font: 20px/10px Tahoma, Geneva, sans-serif; 
+    text-align: center;
+   
+    
+}
+
+#bottoneconferma {
+    font: 20px/10px Tahoma, Geneva, sans-serif; 
     text-align: center;
     
     
