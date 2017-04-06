@@ -1,0 +1,442 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-apr-2017, 16.34.27
+    Author     : matteo
+*/
+/* impostazioni principali del layout */
+
+body{
+    background-color: black;
+    font: 13px/20px "Open Sans", Arial, sans-serif;
+}
+
+#page{
+    background-color: white;
+    
+}
+
+#header{
+    background-color: #1c345a;
+    color: white;
+    font: 15px/140px "Open Sans", Arial, sans-serif;
+   
+}
+
+
+#logo{
+
+    font: 40px/20px "Open Sans", Arial, sans-serif;
+}
+
+
+
+#menu ul li a:link{
+    color: white;
+}
+
+
+
+
+h2, h3, h4, h5, h6 {
+    color: #1c345a;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+a:link{
+    text-decoration: underline;
+    color: #9e1616;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: red;
+}
+
+a:hover{
+    font-weight: bold;
+
+}
+
+/* Login */
+
+
+.title {
+  position:relative;
+	font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 25px;
+  text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+  color: #444;
+  text-align:center;
+}
+form {
+  background: none;
+  margin: 20px auto 0;
+  padding: 10px;
+  width: 280px;
+}
+
+input {
+  display: block;
+  font-size: 14px;
+  width:240px;
+  margin: 10px auto;
+  padding: 10px 8px 10px 8px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0, .55), 0px 1px 1px rgba(255,255,255,.5);
+  border: 1px solid #666;
+}
+
+input {
+  opacity: 0.5;
+}
+
+input:hover,
+input:focus {
+  opacity: .7;
+  color:#08c;
+  border: 1px solid #08c;
+   box-shadow: 0px 1px 0px rgba(255,255,255,.25),inset 0px 3px 6px rgba(0,0,0,.25);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: inset 0 1px 2px rgba(255,255,255, .35), 0px 1px 15px rgba(0,246,255,.5);
+  border: 1px solid #08c;
+  outline: none;
+}
+input[type="submit"] {
+  appearance: none;
+  opacity: .99;
+  width:120px;
+  background: #08c;
+  box-shadow: inset 0 1px 2px rgba(255,255,255, .35), 0px 1px 6px rgba(0,246,255,.5);
+  border: 1px solid #0a5378;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  text-shadow:0px -1px 0px rgba(0,0,0,.5);
+}
+input[type="submit"]:hover {
+  background: #08c;
+  width:120px;
+  border: 1px solid #0a5378;
+  border-radius: 3px;
+  box-shadow: inset 0px 3px 16px rgba(0,0,0,.25),0px 1px 10px rgba(255,255,255,.5),inset 0px -1px 2px rgba(255,255,255,.35);
+  text-shadow:0px 1px 1px rgba(0,0,0,.65);
+  -webkit-transition: all 0.40s ease-out;
+  transition: all 0.40s ease-out;
+}
+
+
+
+/* decorazioni degli elementi */
+
+#sidebar1 li {
+    list-style: none;
+}
+
+
+#sidebar1 ul{
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+
+.panel, .panel-mini{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.panel li a:link, .panel-mini li a:link{
+    text-decoration:  none;
+    color: #9e1616;
+}
+
+
+.none{
+    list-style: none;
+}
+.no-space{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* gestione dei dispositivi */
+
+@media only screen and (min-width: 1024px) {
+
+
+    #page {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom:25px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+
+    #sidebar1 {
+        float: left;
+        width: 20%;
+        padding-left: 5px;
+
+    }
+
+
+
+    #post {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+
+
+    /* header */
+
+    select.menu {
+        display: none;
+    }
+
+    #header{
+        clear: both;
+    }
+
+    #header{
+        height: 100px;
+        position: relative;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 900px;
+        left: -70px;
+
+    }
+
+    #logo{
+        position: absolute;
+    }
+
+
+
+
+    #menu{
+        position: relative;
+        float: right;
+        display: inline-block;
+
+    }
+
+    #menu ul{
+        position: relative;
+        display: inline-block;
+        list-style: none;
+
+
+    }
+
+    #menu ul li{
+        position: relative;
+        display: inline-block;
+        color: white;
+    }
+
+
+
+    div#logo h1 {
+        background-image: url('imgM2/logonerdbook.png');
+        background-repeat: no-repeat;
+        background-position: center left;
+        height: 110px;
+        vertical-align: middle;
+        padding-left: 130px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 120px;
+        color: #ffffff;
+        display: block;
+    }
+
+    }
+
+    #login{
+        
+     width: 400px;
+    margin: 15px;
+    background: white;
+    padding: 30px;
+    overflow: hidden;
+ text-align: right;
+    
+    
+    }
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+    body{
+        font: 18px/20px "Open Sans", Arial, sans-serif;
+    }
+    #header{
+        padding: 10px;
+        min-height: 50px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        background-color: #1c345a;
+    }
+
+    #sidebar1 {
+        float: left;
+        width: 200px;
+        padding-left: 5px;
+        padding-right: 10px;
+
+    }
+
+    #sidebar1 li {
+        margin-bottom: 10px;
+    }
+
+
+
+    #sidebar1 ul{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #post {
+        margin-left: 200px;
+        margin-right: 5px;
+        padding-bottom: 10px;
+    }
+
+    #logo{
+        position: absolute;
+    }
+
+    #menu{
+        position: relative;
+        float: right;
+        display: inline-block;
+
+    }
+
+    #menu ul{
+        position: relative;
+        display: inline-block;
+        list-style: none;
+
+
+    }
+
+    #menu ul li{
+        position: relative;
+        display: inline-block;
+        color: white;
+        margin-left: 20px;
+    }
+
+    select.menu {
+        display: none;
+    }
+
+
+
+
+
+    div#logo h1 {
+        background-repeat: no-repeat;
+        background-position: center left;
+        vertical-align: middle;
+        line-height: 50px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #ffffff;
+        display: block;
+    }
+
+
+
+
+
+    @media only screen and (max-width: 600px){
+    body{
+        font: 18px/20px "Open Sans", Arial, sans-serif;
+    }
+    #header{
+        padding: 10px;
+        min-height: 50px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 10px solid #9e1616;
+        margin: 0px;
+        background-color: #1c345a;
+    }
+
+    #sidebar1 {
+        display: none;
+
+    }
+
+
+    #sidebar1 ul{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #post {
+        padding-bottom: 10px;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #menu{
+        display: none;
+
+    }
+
+    select.menu {
+        width: 100%;
+    }
+
+
+
+
+
+
+    div#logo h1 {
+        background-repeat: no-repeat;
+        background-position: center left;
+        vertical-align: middle;
+        line-height: 50px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #ffffff;
+        display: block;
+    }}}
+
+
+
+
