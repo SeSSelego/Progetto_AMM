@@ -1,72 +1,142 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<!DOCTYPE html >
+
 <html>
-    <head>
-        <title>Bacheca</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name ="keywords" content="Social Media, social, utente">
-        <meta name ="author"   content="Matteo Sesselego">
-        <meta http-equiv="refresh" content="30">
-        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    </head>
+<head>
     
-    <body>
-        <header>
-                 
-            <h1>Bacheca</h1>
+    <title>NerdBook - Bacheca</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="keywords" content="Social Media, social, utente">
+    <meta name ="author"   content="Matteo Sesselego">
+    <meta name="description" content="Il Social più bello che ci sia!" />
+    <link href="stile.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<div id="page">
+    <header>
+
         
-         </header>
         
-        <nav>
-    
-            <p>Link Utili</p>
+
+        <!--  header -->
+        <div id="header">
+
+            <div id="logo">
+                <h1>NerdBook</h1>
+            </div>
+
+
+            <select class="menu">
+                <option>Home</option>
+                <option>Profilo</option>
+                <option>Bacheca</option>
+
+
+            </select>
             
-            <ol>
-                <li><a href="descrizione.html">Descrizione</a> </li>
-                <li><a href="login.html">Login</a></li>
-            </ol>
- 
-        </nav>
-        
-        <article>
-            
-            <h3 id="Post1"> Matteo ha scritto: </h3>
-        
-            <img title="Foto profilo" alt="Foto profilo" src="profilo.jpg" width="75" height="75">
-    
-            <p> A me me gusta bailar con la mangusta </p>
-            
-        </article>
-        
-        <article>
-            
-            <h3 id="Post2"> Matteo ha scritto: </h3>
-        
-            <img title="Foto profilo" alt="Foto profilo" src="profilo.jpg" width="75" height="75">
-        
-             <p> Vacanze in Montagna</p>
-        
-             <img title="Foto della montagna" alt="Foto montagna" src="montagna.jpg" width="500" height="300">
-        
-        </article>
-        
-        <article>
-            
-        
-             <h3 id="Post3"> Matteo ha scritto: </h3>
-        
-             <img title="Foto profilo" alt="Foto profilo" src="profilo.jpg" width="75" height="75">
-        
-             <p>Sito speciale</p>
-        
-             <a href="https://i.ytimg.com/vi/rA3yN06U3mE/hqdefault.jpg?custom=true&w=246&h=138&stc=true&jpg444=true&jpgq=90&sp=68&sigh=vH1775DZcPt1LY1yRguQDHCCiAM"> Mia foto nudo</a>
-        
-       </article>
-       
-    </body>
+            <nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Bacheca</a></li>
+                    <li><a href="Profilo.html">Profilo</a></li>
+                    <li><a href="Logout.html">Logout</a></li>
+
+                </ul>
+            </div>
+                
+            </nav>
+        </div>
+
+
+    </header>
+
+    <!-- start page -->
+    <!--  sidebar 1 -->
+    <div id="sidebar1">
+        <ul>
+            <li id="categories">
+
+
+                <h2> Persone</h2>
+                <ul>
+                    <li><p> Simone Genovesi</p></li>
+                    <li><p> Fefina Fefi</p></li>
+                    <li><p> Federico Sacca'</p></li>
+                    <li><p> Mike Basoski</p></li>
+                </ul>
+            </li>
+            <li id="external">
+                <h2>Gruppi</h2>
+                <ul>
+                    <li><p> I TERMOSIFONI</p></li>
+                    <li><p> THE MANHZ! </p></li>
+                    <li><p> UNICAVOLI </p></li>
+
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+    <!-- contenuto -->
+    <div id="post">
+
+
+        <fieldset><legend><h2>POST DEL GIORNO</h2></legend>
+            <img title="Foto profilo" alt="Foto profilo" src="imgM2/logonerdbook.png" width="75" height="75">
+
+
+
+            <fieldset><legend><b>Matteo</b> ha scritto:</legend>
+            <img title="Foto profilo" alt="Foto profilo" src="imgM2/profilo.jpg" width="75" height="75">
+            <p> A me me gusta bailar con la mangusta</p>
+
+        </fieldset>
+            <fieldset><legend><b>Fefina Fefi</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/007.jpg" width="75" height="75">
+                <p> Mi sento il latte alle ginocchia........ uff</p>
+
+            </fieldset>
+            <fieldset><legend><b>Federico Sacca</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/sacca.jpg" width="75" height="75">
+                <p> giudo guido ma non so do' vado</p>
+
+            </fieldset>
+            <fieldset><legend><b>Simone Genovesi</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/simo.jpg" width="75" height="75">
+                <p> Scusa me la tocchi la medusa?</p>
+
+            </fieldset>
+            <fieldset><legend><b>Federico Sacca'</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/sacca.jpg" width="75" height="75">
+                <p> Ho amici molto molto malarioni</p>
+
+            </fieldset>
+            <fieldset><legend><b>Matteo</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/profilo.jpg" width="75" height="75">
+                <p> Foto in Montagna</p>
+                <img title="Foto della montagna" alt="Foto montagna" src="imgM2/montagna.jpg" width="500" height="300">
+
+            </fieldset>
+            <fieldset><legend><b>Matteo</b> ha scritto:</legend>
+                <img title="Foto profilo" alt="Foto profilo" src="imgM2/profilo.jpg" width="75" height="75">
+                <p>Sito speciale</p>
+                <a href="https://i.ytimg.com/vi/rA3yN06U3mE/hqdefault.jpg?custom=true&w=246&h=138&stc=true&jpg444=true&jpgq=90&sp=68&sigh=vH1775DZcPt1LY1yRguQDHCCiAM"> Mia foto nudo</a>
+
+            </fieldset>
+
+        </fieldset>
+
+    </div>
+
+
+
+
+
+</div>
+</body>
 </html>
